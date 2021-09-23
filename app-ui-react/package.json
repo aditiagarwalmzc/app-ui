@@ -3,12 +3,21 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@projectstorm/react-diagrams": "^6.6.1",
+    "@projectstorm/react-diagrams-core": "^6.6.1",
+    "@syncfusion/ej2-base": "^19.2.60",
+    "@syncfusion/ej2-buttons": "^19.2.60",
+    "@syncfusion/ej2-navigations": "^19.2.62",
+    "@syncfusion/ej2-popups": "^19.2.62",
+    "@syncfusion/ej2-react-diagrams": "^19.2.62",
+    "@syncfusion/ej2-splitbuttons": "^19.2.62",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
+    "typescript": "^4.4.3",
     "web-vitals": "^1.1.2"
   },
   "proxy": "http://localhost:3001",
@@ -35,5 +44,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.24",
+    "@types/react-dom": "^17.0.9"
   }
 }
